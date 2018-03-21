@@ -58,7 +58,7 @@
 
 void
 enable_caches()
-{
+{/*
 #ifdef __PPC__
     Xil_ICacheEnableRegion(CACHEABLE_REGION_MASK);
     Xil_DCacheEnableRegion(CACHEABLE_REGION_MASK);
@@ -70,25 +70,29 @@ enable_caches()
     Xil_DCacheEnable();
 #endif
 #endif
+*/
 }
-
+/*
 void
 disable_caches()
 {
     Xil_DCacheDisable();
     Xil_ICacheDisable();
 }
-
+*/
 void
 init_uart()
-{
+{/*
 #ifdef STDOUT_IS_16550
     XUartNs550_SetBaud(STDOUT_BASEADDR, XPAR_XUARTNS550_CLOCK_HZ, UART_BAUD);
     XUartNs550_SetLineControlReg(STDOUT_BASEADDR, XUN_LCR_8_DATA_BITS);
 #endif
 #ifdef STDOUT_IS_PS7_UART
     /* Bootrom/BSP configures PS7 UART to 115200 bps */
+	/*
 #endif
+*/
+
 }
 
 void

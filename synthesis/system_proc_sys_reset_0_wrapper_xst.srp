@@ -1,10 +1,10 @@
-Release 14.6 - xst P.68d (nt64)
+Release 14.6 - xst P.68d (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\student\Desktop\ra46-2014\lab3\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\NN\Desktop\lab3\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_proc_sys_reset_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\student\Desktop\ra46-2014\lab3\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\NN\Desktop\lab3\pcores\" "G:\xilinx\14.6\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "G:\xilinx\14.6\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45fgg676-2
@@ -62,19 +62,19 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd" into library proc_sys_reset_v3_00_a
+Parsing VHDL file "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <upcnt_n>.
 Parsing architecture <imp> of entity <upcnt_n>.
-Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" into library proc_sys_reset_v3_00_a
+Parsing VHDL file "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <lpf>.
 Parsing architecture <imp> of entity <lpf>.
-Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd" into library proc_sys_reset_v3_00_a
+Parsing VHDL file "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <sequence>.
 Parsing architecture <imp> of entity <sequence>.
-Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v3_00_a
+Parsing VHDL file "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <proc_sys_reset>.
 Parsing architecture <imp> of entity <proc_sys_reset>.
-Parsing VHDL file "C:\Users\student\Desktop\ra46-2014\lab3\hdl\system_proc_sys_reset_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\NN\Desktop\lab3\hdl\system_proc_sys_reset_0_wrapper.vhd" into library work
 Parsing entity <system_proc_sys_reset_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_proc_sys_reset_0_wrapper>.
 
@@ -89,7 +89,7 @@ Elaborating entity <proc_sys_reset> (architecture <imp>) with generics from libr
 Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
 
 Elaborating entity <lpf> (architecture <imp>) with generics from library <proc_sys_reset_v3_00_a>.
-WARNING:HDLCompiler:89 - "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" Line 138: <srl16> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd" Line 138: <srl16> remains a black-box since it has no binding entity.
 
 Elaborating entity <sequence> (architecture <imp>) from library <proc_sys_reset_v3_00_a>.
 
@@ -100,16 +100,16 @@ Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <pr
 =========================================================================
 
 Synthesizing Unit <system_proc_sys_reset_0_wrapper>.
-    Related source file is "C:\Users\student\Desktop\ra46-2014\lab3\hdl\system_proc_sys_reset_0_wrapper.vhd".
+    Related source file is "C:\Users\NN\Desktop\lab3\hdl\system_proc_sys_reset_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_proc_sys_reset_0_wrapper> synthesized.
 
 Synthesizing Unit <proc_sys_reset>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd".
+    Related source file is "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd".
         C_EXT_RST_WIDTH = 4
         C_AUX_RST_WIDTH = 4
-        C_EXT_RESET_HIGH = '0'
+        C_EXT_RESET_HIGH = '1'
         C_AUX_RESET_HIGH = '1'
         C_NUM_BUS_RST = 1
         C_NUM_PERP_RST = 1
@@ -145,7 +145,7 @@ Synthesizing Unit <proc_sys_reset>.
 Unit <proc_sys_reset> synthesized.
 
 Synthesizing Unit <upcnt_n_1>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
         C_SIZE = 4
     Found 4-bit register for signal <q_int>.
     Found 4-bit adder for signal <q_int[3]_GND_7_o_add_0_OUT> created at line 145.
@@ -156,10 +156,10 @@ Synthesizing Unit <upcnt_n_1>.
 Unit <upcnt_n_1> synthesized.
 
 Synthesizing Unit <lpf>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd".
+    Related source file is "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/lpf.vhd".
         C_EXT_RST_WIDTH = 4
         C_AUX_RST_WIDTH = 4
-        C_EXT_RESET_HIGH = '0'
+        C_EXT_RESET_HIGH = '1'
         C_AUX_RESET_HIGH = '1'
     Set property "INIT = FFFF" for instance <POR_SRL_I>.
     Found 1-bit register for signal <lpf_exr>.
@@ -180,7 +180,7 @@ Synthesizing Unit <lpf>.
 Unit <lpf> synthesized.
 
 Synthesizing Unit <sequence>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd".
+    Related source file is "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/sequence.vhd".
     Found 3-bit register for signal <bsr_dec>.
     Found 1-bit register for signal <pr>.
     Found 3-bit register for signal <pr_dec>.
@@ -207,7 +207,7 @@ Synthesizing Unit <sequence>.
 Unit <sequence> synthesized.
 
 Synthesizing Unit <upcnt_n_2>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
+    Related source file is "G:/xilinx/14.6/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/upcnt_n.vhd".
         C_SIZE = 6
     Found 6-bit register for signal <q_int>.
     Found 6-bit adder for signal <q_int[5]_GND_21_o_add_0_OUT> created at line 145.
@@ -476,12 +476,12 @@ Slowest_sync_clk|    3.120|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.04 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.56 secs
  
 --> 
 
-Total memory usage is 269968 kilobytes
+Total memory usage is 290136 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

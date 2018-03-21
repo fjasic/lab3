@@ -35,14 +35,13 @@
 #include "platform.h"
 #include "xparameters.h"
 #include "xio.h"
+#include "my_peripheral.h"
 int main()
 {
- unsigned int DataRead;
- init_platform();
- print("Hello World\n\r");
- while(1){
- DataRead = XIo_In32(XPAR_DIP_SWITCHES_BASEADDR);
- xil_printf("\n\rDataRead = %x", DataRead);
- }
- return 0;
+unsigned int DataRead;
+init_platform();
+// Add application code
+//xil_printf("%c[2J",27);
+//MY_PERIPHERAL_ClearScreen();
+return 0;
 }

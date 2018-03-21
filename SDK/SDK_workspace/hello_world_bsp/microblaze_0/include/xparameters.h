@@ -177,6 +177,17 @@
 
 /******************************************************************/
 
+/* Definitions for driver MY_PERIPHERAL */
+#define XPAR_MY_PERIPHERAL_NUM_INSTANCES 1
+
+/* Definitions for peripheral MY_PERIPHERAL_0 */
+#define XPAR_MY_PERIPHERAL_0_DEVICE_ID 0
+#define XPAR_MY_PERIPHERAL_0_BASEADDR 0x7DE00000
+#define XPAR_MY_PERIPHERAL_0_HIGHADDR 0x7DE0FFFF
+
+
+/******************************************************************/
+
 /* Definitions for bus frequencies */
 #define XPAR_CPU_M_AXI_DP_FREQ_HZ 100000000
 /******************************************************************/
